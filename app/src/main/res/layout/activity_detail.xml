@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_500sdp"
+        android:orientation="vertical"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_380sdp">
+            <ImageView
+                android:id="@+id/imageDetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@color/white"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_120sdp"
+                android:src="@drawable/bar"
+                android:scaleType="centerCrop"
+                android:alpha="0.9"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <ImageView
+                android:id="@+id/btn_backDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_white"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:layout_marginStart="@dimen/_18sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/detail_canva"
+            android:layout_marginTop="-60dp"
+            android:elevation="@dimen/_30sdp"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_20sdp"
+            android:paddingTop="@dimen/_12sdp"
+            >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/nama_wisataDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Talaga Surian"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="@color/btn_onboarding"
+        />
+    <TextView
+        android:id="@+id/descDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textSize="@dimen/_10sdp"
+        android:text="Buper Ipukan Kuningan alias Bumi Perkemahan Ipukan adalah suatu daerah untuk berkemah yang ada di kawasan Gunung Ciremai Jawa Barat.  Tempat wisata satu ini memiliki daya tarik utama berupa sensasi berkemah yang terasa di atas awan."
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/btn_onboarding"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textSize="@dimen/_14sdp"
+        android:text="Alamat"
+        />
+    <TextView
+        android:id="@+id/alamatDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="-3dp"
+        android:textSize="@dimen/_10sdp"
+        android:text="Jl. Palutungan, Desa Cisantana, Kecamata Cigugur"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/btn_onboarding"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textSize="@dimen/_14sdp"
+        android:text="Fasilitas"
+        />
+    <TextView
+        android:id="@+id/fasilitasDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="-3dp"
+        android:textSize="@dimen/_10sdp"
+        android:text="Mushola, Toilet, Area parkir kendaraan yang luas, Camping ground berukuran luas, Lembah kopi, Spot foto, Gazebo, Ayunan dan Akses menuju Curug Cisurian dan Cipayung."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/btn_onboarding"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textSize="@dimen/_14sdp"
+        android:text="Harga Tiket"
+        />
+    <TextView
+        android:id="@+id/hargaDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="-3dp"
+        android:textSize="@dimen/_14sdp"
+        android:text="Rp 20.000,-"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/directDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/direct_style"
+        android:text="Direct To Google Maps"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        />
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_210sdp"
+        android:id="@+id/sliderImage"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/screen1"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:id="@+id/sliderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/screen1"
+        android:textAlignment="center"
+        android:textColor="@color/btn_onboarding"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/sliderDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginHorizontal="@dimen/_40sdp"
+        android:text="@string/descscreen1"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp"
+        />
+
+  </LinearLayout>

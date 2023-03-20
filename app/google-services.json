@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37868804533",
+    "project_id": "siwiku-5cca2",
+    "storage_bucket": "siwiku-5cca2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37868804533:android:1832bed2eaca9673af21fc",
+        "android_client_info": {
+          "package_name": "com.example.siwiku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37868804533-obu3d2cr2s0v2n4tr8aboqnp7uu09kt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyMS5ek4rRvqSH7kQIs8fFyiPTnz-I6KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37868804533-obu3d2cr2s0v2n4tr8aboqnp7uu09kt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
