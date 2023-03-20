@@ -1,4 +1,4 @@
-
+![201453421-ba3b88b6-5d6f-42a3-80fb-b71150376462](https://user-images.githubusercontent.com/56666072/226400201-ce52db8f-2c5f-4dc9-a13a-cf66312988ac.jpg)
 
 Hi, We're from Group 2 👋
 
